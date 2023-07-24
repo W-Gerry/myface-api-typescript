@@ -1,0 +1,26 @@
+
+
+/* Styling for post feed */
+
+.post-list {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    margin-top: 50px;
+    
+}
+
+.post {
+    background-color: #151820;
+    margin-top: 24px;
+    height: 300px;
+    width: 300px;
+}
+
+.post-image {
+    height: 55%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
